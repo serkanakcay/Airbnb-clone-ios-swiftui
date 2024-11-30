@@ -12,6 +12,7 @@
 		C9A3E35D2CFB99700057E79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A3E35C2CFB99700057E79D /* Assets.xcassets */; };
 		C9A3E3602CFB99700057E79D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A3E35F2CFB99700057E79D /* Preview Assets.xcassets */; };
 		C9A3E3712CFB9AE50057E79D /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A3E3702CFB9AE50057E79D /* ExploreView.swift */; };
+		C9A3E3742CFB9D320057E79D /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A3E3732CFB9D320057E79D /* ListingItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C9A3E35C2CFB99700057E79D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9A3E35F2CFB99700057E79D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C9A3E3702CFB9AE50057E79D /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		C9A3E3732CFB9D320057E79D /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		C9A3E3672CFB9A390057E79D /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				C9A3E3722CFB9D1A0057E79D /* Listings */,
 				C9A3E36F2CFB9A900057E79D /* Wishlists */,
 				C9A3E36E2CFB9A8B0057E79D /* TabBar */,
 				C9A3E36D2CFB9A840057E79D /* Root */,
@@ -148,6 +151,14 @@
 			children = (
 			);
 			path = Wishlists;
+			sourceTree = "<group>";
+		};
+		C9A3E3722CFB9D1A0057E79D /* Listings */ = {
+			isa = PBXGroup;
+			children = (
+				C9A3E3732CFB9D320057E79D /* ListingItemView.swift */,
+			);
+			path = Listings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9A3E35B2CFB996E0057E79D /* ContentView.swift in Sources */,
+				C9A3E3742CFB9D320057E79D /* ListingItemView.swift in Sources */,
 				C9A3E3712CFB9AE50057E79D /* ExploreView.swift in Sources */,
 				C9A3E3592CFB996E0057E79D /* AirbnbCloneApp.swift in Sources */,
 			);
