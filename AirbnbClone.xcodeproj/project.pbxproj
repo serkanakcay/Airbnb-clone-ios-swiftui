@@ -11,6 +11,7 @@
 		C9A3E35B2CFB996E0057E79D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A3E35A2CFB996E0057E79D /* ContentView.swift */; };
 		C9A3E35D2CFB99700057E79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A3E35C2CFB99700057E79D /* Assets.xcassets */; };
 		C9A3E3602CFB99700057E79D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A3E35F2CFB99700057E79D /* Preview Assets.xcassets */; };
+		C9A3E3712CFB9AE50057E79D /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A3E3702CFB9AE50057E79D /* ExploreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C9A3E35A2CFB996E0057E79D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C9A3E35C2CFB99700057E79D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9A3E35F2CFB99700057E79D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9A3E3702CFB9AE50057E79D /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +53,11 @@
 		C9A3E3572CFB996E0057E79D /* AirbnbClone */ = {
 			isa = PBXGroup;
 			children = (
-				C9A3E3582CFB996E0057E79D /* AirbnbCloneApp.swift */,
+				C9A3E3672CFB9A390057E79D /* Core */,
+				C9A3E3662CFB9A310057E79D /* App */,
+				C9A3E36A2CFB9A560057E79D /* Utils */,
+				C9A3E3692CFB9A4E0057E79D /* Models */,
+				C9A3E3682CFB9A470057E79D /* Extensions */,
 				C9A3E35A2CFB996E0057E79D /* ContentView.swift */,
 				C9A3E35C2CFB99700057E79D /* Assets.xcassets */,
 				C9A3E35E2CFB99700057E79D /* Preview Content */,
@@ -65,6 +71,83 @@
 				C9A3E35F2CFB99700057E79D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C9A3E3662CFB9A310057E79D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C9A3E3582CFB996E0057E79D /* AirbnbCloneApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C9A3E3672CFB9A390057E79D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C9A3E36F2CFB9A900057E79D /* Wishlists */,
+				C9A3E36E2CFB9A8B0057E79D /* TabBar */,
+				C9A3E36D2CFB9A840057E79D /* Root */,
+				C9A3E36C2CFB9A7A0057E79D /* MapView */,
+				C9A3E36B2CFB9A6F0057E79D /* Explore */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C9A3E3682CFB9A470057E79D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C9A3E3692CFB9A4E0057E79D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C9A3E36A2CFB9A560057E79D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C9A3E36B2CFB9A6F0057E79D /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				C9A3E3702CFB9AE50057E79D /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		C9A3E36C2CFB9A7A0057E79D /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		C9A3E36D2CFB9A840057E79D /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		C9A3E36E2CFB9A8B0057E79D /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		C9A3E36F2CFB9A900057E79D /* Wishlists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wishlists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9A3E35B2CFB996E0057E79D /* ContentView.swift in Sources */,
+				C9A3E3712CFB9AE50057E79D /* ExploreView.swift in Sources */,
 				C9A3E3592CFB996E0057E79D /* AirbnbCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
