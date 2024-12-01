@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C982FBDC2CFCD1D100FEB81F /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C982FBDB2CFCD1D100FEB81F /* SearchAndFilterBar.swift */; };
 		C9A3E3592CFB996E0057E79D /* AirbnbCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A3E3582CFB996E0057E79D /* AirbnbCloneApp.swift */; };
 		C9A3E35B2CFB996E0057E79D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A3E35A2CFB996E0057E79D /* ContentView.swift */; };
 		C9A3E35D2CFB99700057E79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A3E35C2CFB99700057E79D /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C982FBDB2CFCD1D100FEB81F /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
 		C9A3E3552CFB996E0057E79D /* AirbnbClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A3E3582CFB996E0057E79D /* AirbnbCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbCloneApp.swift; sourceTree = "<group>"; };
 		C9A3E35A2CFB996E0057E79D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				C9A3E3702CFB9AE50057E79D /* ExploreView.swift */,
+				C982FBDB2CFCD1D100FEB81F /* SearchAndFilterBar.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				C9A3E35B2CFB996E0057E79D /* ContentView.swift in Sources */,
 				C9A3E3742CFB9D320057E79D /* ListingItemView.swift in Sources */,
 				C9A3E3712CFB9AE50057E79D /* ExploreView.swift in Sources */,
+				C982FBDC2CFCD1D100FEB81F /* SearchAndFilterBar.swift in Sources */,
 				C9A3E3592CFB996E0057E79D /* AirbnbCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
