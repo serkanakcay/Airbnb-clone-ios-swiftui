@@ -25,6 +25,7 @@ struct ListingItemView: View {
                         .scaledToFill()
                 }
             }
+        
             .frame(height: 320)
             .clipShape(RoundedRectangle(cornerRadius: 10))
             .tabViewStyle(.page)
@@ -34,6 +35,7 @@ struct ListingItemView: View {
                 VStack(alignment:.leading){
                     Text("Miami, Florida")
                         .fontWeight(.semibold)
+                        .foregroundStyle(.black)
                     Text("12 mi away")
                         .foregroundStyle(.gray)
                     Text("Now 3 - 10")
@@ -43,6 +45,7 @@ struct ListingItemView: View {
                             .fontWeight(.semibold)
                         Text("night")
                     }
+                    .foregroundStyle(.black)
                 }
                 //Rating
                 Spacer()
@@ -50,6 +53,7 @@ struct ListingItemView: View {
                     Image(systemName: "star.fill")
                     Text("4.86")
                 }
+                .foregroundStyle(.black)
             }
                 .font(.footnote)
             
