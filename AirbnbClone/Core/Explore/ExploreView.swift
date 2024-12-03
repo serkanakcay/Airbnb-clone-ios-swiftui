@@ -30,8 +30,10 @@ struct ExploreView: View {
                 
             }
             .navigationDestination(for: Int.self) { _ in
-                Text("Hello") // Tıklanan item'e bağlı olarak gösterilecek metin
+                ListingDetailView()
+                    .navigationBarBackButtonHidden()
             }
+            
             
         }
     }
