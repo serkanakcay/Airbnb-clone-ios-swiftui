@@ -8,6 +8,7 @@
 import Foundation
 
 class DeveloperPreview{
+    static let shared = DeveloperPreview()
     var listing: [Listing] = [
         .init(
                 id: NSUUID().uuidString,
@@ -41,7 +42,7 @@ class DeveloperPreview{
                 numberOfBathrooms: 4,
                 numberOfGuests: 3,
                 numberOfBeds: 8,
-                imageUrls:["listing-6","listing-2", "listing-3", "listing-5"],
+                imageUrls:["listing-2","listing-2", "listing-3", "listing-5"],
                 pricePerNight: 250,
                 latitude: 34.0522,
                 longtitude: -118.2437,
