@@ -156,6 +156,7 @@ struct ListingDetailView: View {
             
             
         }
+        .toolbar(.hidden, for: .tabBar)
         .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
         .padding(.bottom, 72)
         .overlay(alignment: .bottom) {
