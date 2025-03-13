@@ -1,7 +1,7 @@
 ## Ekran Görüntüleri
 Explore Screen |  Wishlists Screen | Profile Screen | Search Screen | 
 --- | --- | --- | --- | 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/goa8tnv.png) | ![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/qc6z2w3.png) | ![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/j5j3ivf.png) | ![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/cafor3a.png) | 
+![Uygulama Ekran Görüntüsü](https://github.com/serkanakcay/assets/blob/main/cafor3a.jpeg) | ![Uygulama Ekran Görüntüsü](https://github.com/serkanakcay/assets/blob/main/goa8tnv.jpeg) | ![Uygulama Ekran Görüntüsü](https://github.com/serkanakcay/assets/blob/main/j5j3ivf.jpeg) | ![Uygulama Ekran Görüntüsü](https://github.com/serkanakcay/assets/blob/main/qc6z2w3.jpeg) | 
 
 ## Airbnb Clone 
 
